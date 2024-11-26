@@ -4,6 +4,7 @@ Overview:
 This project utilizes state-of-the-art deep learning models, including Convolutional Neural Networks (CNN) and VGG16 to create an automated skin cancer detection system. It processes dermoscopic images to classify skin lesions as benign or malignant, aiming to support early and accurate diagnosis, which is critical for effective treatment and improved survival rates.
 
 Key Features:
+
 Advanced Deep Learning Models:
 1)CNN: Designed for efficient pattern recognition and feature extraction directly from images.
 2)VGG16: A pre-trained model known for its depth and simplicity, fine-tuned for enhanced classification accuracy.
@@ -19,11 +20,13 @@ Web Technologies: Flask (backend)
 Data Handling: Image datasets like ISIC for dermoscopic image analysis
 
 Objectives:
+
 1)Develop a robust and accurate system for detecting skin cancer using deep learning.
 2)Automate the classification of skin lesions, reducing subjectivity and workload for dermatologists.
 3)Provide a scalable, reliable, and easy-to-use interface for healthcare professionals.
 
 Workflow:
+
 Data Collection: Dermoscopic images are sourced from publicly available datasets, such as ISIC, to ensure a diverse and comprehensive training set.
 Preprocessing: Images are normalized, resized, and augmented using techniques like rotation, flipping, and scaling. This step ensures the model is trained on high-quality data and generalizes well to unseen samples.
 Model Development: The project focuses on training CNN, VGG16, and DenseNet architectures using the preprocessed dataset.The models are compared based on metrics like accuracy and F1-score, and their outputs are combined using ensemble methods for better classification robustness.
